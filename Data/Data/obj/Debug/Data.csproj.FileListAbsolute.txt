@@ -1,0 +1,17 @@
+E:\MOP\MVCFramework\Pure.MVC.Framework\Data\Data\bin\Debug\Data.dll.config
+E:\MOP\MVCFramework\Pure.MVC.Framework\Data\Data\bin\Debug\Data.dll
+E:\MOP\MVCFramework\Pure.MVC.Framework\Data\Data\bin\Debug\Data.pdb
+E:\MOP\MVCFramework\Pure.MVC.Framework\Data\Data\bin\Debug\Core.dll
+E:\MOP\MVCFramework\Pure.MVC.Framework\Data\Data\bin\Debug\EntityFramework.dll
+E:\MOP\MVCFramework\Pure.MVC.Framework\Data\Data\bin\Debug\EntityFramework.SqlServer.dll
+E:\MOP\MVCFramework\Pure.MVC.Framework\Data\Data\bin\Debug\Core.pdb
+E:\MOP\MVCFramework\Pure.MVC.Framework\Data\Data\bin\Debug\EntityFramework.xml
+E:\MOP\MVCFramework\Pure.MVC.Framework\Data\Data\bin\Debug\EntityFramework.SqlServer.xml
+E:\MOP\MVCFramework\Pure.MVC.Framework\Data\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+E:\MOP\MVCFramework\Pure.MVC.Framework\Data\Data\obj\Debug\Data.dll
+E:\MOP\MVCFramework\Pure.MVC.Framework\Data\Data\obj\Debug\Data.pdb
+E:\MOP\MVCFramework\Pure.MVC.Framework\Data\Data\obj\Debug\Data.Migrations.init.resources
+E:\MOP\MVCFramework\Pure.MVC.Framework\Data\Data\obj\Debug\Data.csproj.GenerateResource.Cache
+E:\MOP\MVCFramework\Pure.MVC.Framework\Data\Data\bin\Debug\Autofac.dll
+E:\MOP\MVCFramework\Pure.MVC.Framework\Data\Data\bin\Debug\Autofac.xml
+E:\MOP\MVCFramework\Pure.MVC.Framework\Data\Data\obj\Debug\Data.Migrations.empty.resources

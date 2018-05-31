@@ -1,0 +1,4 @@
+E:\MOP\MVCFramework\Pure.MVC.Framework\Services\Services\bin\Debug\Services.dll
+E:\MOP\MVCFramework\Pure.MVC.Framework\Services\Services\bin\Debug\Services.pdb
+E:\MOP\MVCFramework\Pure.MVC.Framework\Services\Services\obj\Debug\Services.dll
+E:\MOP\MVCFramework\Pure.MVC.Framework\Services\Services\obj\Debug\Services.pdb

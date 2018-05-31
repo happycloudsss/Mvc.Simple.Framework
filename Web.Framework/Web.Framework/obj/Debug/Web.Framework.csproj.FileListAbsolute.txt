@@ -1,0 +1,9 @@
+E:\MOP\MVCFramework\Pure.MVC.Framework\Web.Framework\Web.Framework\bin\Debug\Web.Framework.dll
+E:\MOP\MVCFramework\Pure.MVC.Framework\Web.Framework\Web.Framework\bin\Debug\Web.Framework.pdb
+E:\MOP\MVCFramework\Pure.MVC.Framework\Web.Framework\Web.Framework\bin\Debug\Autofac.dll
+E:\MOP\MVCFramework\Pure.MVC.Framework\Web.Framework\Web.Framework\bin\Debug\Core.dll
+E:\MOP\MVCFramework\Pure.MVC.Framework\Web.Framework\Web.Framework\bin\Debug\Core.pdb
+E:\MOP\MVCFramework\Pure.MVC.Framework\Web.Framework\Web.Framework\bin\Debug\Autofac.xml
+E:\MOP\MVCFramework\Pure.MVC.Framework\Web.Framework\Web.Framework\obj\Debug\Web.Framework.csprojResolveAssemblyReference.cache
+E:\MOP\MVCFramework\Pure.MVC.Framework\Web.Framework\Web.Framework\obj\Debug\Web.Framework.dll
+E:\MOP\MVCFramework\Pure.MVC.Framework\Web.Framework\Web.Framework\obj\Debug\Web.Framework.pdb
