@@ -1,7 +1,0 @@
-E:\MOP\MVCFramework\Pure.MVC.Framework\Core\Core\bin\Debug\Core.dll
-E:\MOP\MVCFramework\Pure.MVC.Framework\Core\Core\bin\Debug\Core.pdb
-E:\MOP\MVCFramework\Pure.MVC.Framework\Core\Core\obj\Debug\Core.dll
-E:\MOP\MVCFramework\Pure.MVC.Framework\Core\Core\obj\Debug\Core.pdb
-E:\MOP\MVCFramework\Pure.MVC.Framework\Core\Core\bin\Debug\Autofac.dll
-E:\MOP\MVCFramework\Pure.MVC.Framework\Core\Core\bin\Debug\Autofac.xml
-E:\MOP\MVCFramework\Pure.MVC.Framework\Core\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
