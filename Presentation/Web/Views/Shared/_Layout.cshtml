@@ -1,15 +1,18 @@
 ﻿<!DOCTYPE html>
 
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width" />
-    @*@Styles.Render*@
+    @RenderSection("Meta", false)
+    @Styles.Render("~/Content/css")   
+    @RenderSection("Css", false)
     <title>@ViewBag.Title</title>
 </head>
-<body>
-    <div>
-        @RenderBody()
-    </div>
+<body class="text-center">
+    @RenderBody()
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("Scripts", false)
 </body>
 </html>

@@ -1,11 +1,14 @@
 ﻿using Autofac;
 using Autofac.Integration.Mvc;
 using Core.Infrastructure;
+using FluentValidation.Attributes;
+using FluentValidation.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Optimization;
 using System.Web.Routing;
 
 namespace Web
@@ -16,6 +19,13 @@ namespace Web
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+            BundleConfig.RegisterBundles(BundleTable.Bundles);
+            BundleTable.EnableOptimizations = true;
+
+            //fluent validation
+            //DataAnnotationsModelValidatorProvider.AddImplicitRequiredAttributeForValueTypes = false;
+            //ModelValidatorProviders.Providers.Add(new FluentValidationModelValidatorProvider(new AttributedValidatorFactory()));
+            FluentValidationModelValidatorProvider.Configure();
         }
 
         private void RegisterDependencies()

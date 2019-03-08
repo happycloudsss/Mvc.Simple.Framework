@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Security;
+using Web.Models.Login;
 
 namespace Web.Controllers
 {
@@ -11,18 +12,22 @@ namespace Web.Controllers
     {
         // GET: Login
         public ActionResult Login()
-        {
+        {           
             return View();
         }
 
         [HttpPost]
-        public ActionResult Login(string username,string password)
+        public ActionResult Login(LoginModel user)
         {
-            if(username!=null && password!=null)
+            if(ModelState.IsValid)
             {
-                FormsAuthentication.SetAuthCookie(username, true);
+                FormsAuthentication.SetAuthCookie(user.Username, true);
+                return RedirectToAction("Index", "Home");
             }
-            return RedirectToAction("Index", "Home");
+            else
+            {
+                return View("Login", user);
+            }
         }
 
     }

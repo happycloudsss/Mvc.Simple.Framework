@@ -1,20 +1,42 @@
-﻿<div class="container">
-    @using (Html.BeginForm())
-    {
-        <div class="col-md-12">
-            <label for="username">用户名</label>
-            <input id="username" name="username" type="text" />
-        </div>
+﻿@using Web.Models.Login
+@model LoginModel
 
-        <div class="col-md-12">
-            <label for="password">密码</label>
-            <input id="password" name="password" type="password" />
-        </div>
+@section Css{
+    <link rel="stylesheet" href="~/Content/login.css"/>
+}
+@section Scripts{
+    <script type="text/javascript" src="~/Scripts/validate.js"></script>
+}
+<form method="post" action="@Url.Action("Login", "User")" class="needs-validation form-signin" novalidate>
+    <img class="mb-4" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+    <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+    <label for="inputEmail" class="sr-only">Email address</label>
+    <input id="inputEmail" name="username" class="form-control" @{if (Model != null) {<text>value="@Model.Username"</text>} } placeholder="Email address" autofocus="" type="email" required>
+    @*@Html.ValidationMessageFor(x => x.Username)*@
+    @{
+        if (!ViewData.ModelState.IsValid && ViewData.ModelState["Username"].Errors.Count > 0)
+        {
+            <div class="alert alert-danger mt-2" role="alert">
+                @ViewData.ModelState["Username"].Errors[0].ErrorMessage
+            </div>
+        }
+    }
+    <div class="invalid-feedback">
+        Plese choose correct email format
+    </div>
+    <label for="inputPassword" class="sr-only">Password</label>
+    <input id="inputPassword" name="password" class="form-control" placeholder="Password" type="password" required>
+    @Html.ValidationMessageFor(x => x.Password)
+    <div class="invalid-feedback">
+        Password is required
+    </div>   
+    <div class="checkbox mb-3">
+        <label>
+            <input value="remember-me" type="checkbox"> Remember me
+        </label>
+    </div>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+    <p class="mt-5 mb-3 text-muted">© 2017-2018</p>
+</form>
 
-        <button class="btn-primary">Login</button>
-    }     
-</div>
 
-
-    <script src="~/Scripts/jquery-3.0.0.min.js"></script>
-    <script src="~/Scripts/bootstrap.min.js"></script>

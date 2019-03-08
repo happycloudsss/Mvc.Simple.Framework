@@ -14,9 +14,9 @@ namespace Web
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
-            name: "Login",
-            url: "login/",
-            defaults: new { controller = "User", action = "Login" }
+                name: "Login",
+                url: "login/",
+                defaults: new { controller = "User", action = "Login" }
             );
 
             routes.MapRoute(
